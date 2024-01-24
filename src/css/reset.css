@@ -1,0 +1,69 @@
+:root {
+  --main-fg-color: #000;
+  --main-bg-color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body {
+  background-color: var(--main-bg-color);
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--main-fg-color);
+}
+
+a:hover {
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--main-fg-color);
+  opacity: 0.5;
+}
+1
+a:visited 1
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--main-fg-color);
+}
