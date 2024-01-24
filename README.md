@@ -18,6 +18,9 @@ WSL (Windows Subsystem for Linux): `sudo apt install make`
 cd /path/to/judentum-website/
 sudo make run
 ```
+Wenn der Befehl scheitert, versuch `docker pull httpd:2.4` auszuführen
+
+
 Nach dem starten des Webservers wird jede Änderung im `src/` Ordner auf der Webseite angezeigt.
 Die Webseite ist erreichber unter `localhost:8080`. 
 
