@@ -37,6 +37,3 @@ Um der Webseite eine schönere URL zu geben muss man sich so eine Mieten und bei
 cd /path/to/judentum-website/
 sudo make stop
 ```
-
-Hallo, Ich bin der Roger lol.
-Und ich bin ich!
