@@ -38,4 +38,5 @@ cd /path/to/judentum-website/
 sudo make stop
 ```
 
-Hallo, Ich bin der Roger lol
+Hallo, Ich bin der Roger lol.
+Und ich bin ich!
