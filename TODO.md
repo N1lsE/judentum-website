@@ -1,4 +1,4 @@
-# Jüdisches leben in Fritzlar algemein
+# Jüdisches leben in Fritzlar allgemein
 
 (Nils Eckerle)
 
