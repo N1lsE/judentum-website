@@ -1,0 +1,10 @@
+h1{text-align: center;}
+div {
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 3.5rem;
+    background-color: rgb(64, 20, 142);
+}
+p {
+    text-align: justify;
+}
