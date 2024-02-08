@@ -43,4 +43,9 @@
   font-size: 2rem;
 
   padding: 0 1rem;
+  height: 50px;
+}
+
+#logo > img {
+  height: 100%;
 }
