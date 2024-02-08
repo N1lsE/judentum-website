@@ -9,3 +9,18 @@ h1 {
 .fontsize {
     font-size: 15px;
 }
+h1
+{text-align: center;}
+div {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3.5rem;
+    background-color: rgb(255, 255, 255);
+}
+p {
+    text-align: justify;}
+    img {
+        padding-left: 1%;
+        padding-right: 1%;
+        margin-top: 3.5rem;
+    }
