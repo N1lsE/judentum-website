@@ -1,12 +1,16 @@
-body {
-    background-color: moccasin;
-
-
+h1{text-align: center;}
+h3{text-align: center;}
+h5{
+    text-align: center; 
+    margin-top: 2rem;
 }
-.content{
-    background-color: cadetblue;
+
+div {
+    padding-left: 400px;
+    padding-right: 400px;
+    margin-top: 3.5rem;
+    background-color: aquamarine;
 }
-.wrapper{
-    padding-left: 50px;
-    padding-right: 50px;
+p {
+    text-align: justify;
 }
