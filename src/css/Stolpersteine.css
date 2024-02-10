@@ -13,17 +13,3 @@ img {
     padding-right: 1%;
     margin-top: 3.5rem;
 }
-.botton{
-    background-color: rgb(252, 239, 189);
-    display: inline;
-    border-radius: 500%;
-    cursor:pointer;
-    object-position: bottom;
-    position: fixed;
-    width: 100px;
-    height: 120px;
-    border: 3px solid;
-    top: 500px;
-    bottom: 0%;
-        
-}
