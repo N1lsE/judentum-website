@@ -1,13 +1,17 @@
-h1,h2,h3,h6
-{text-align: center;}
+h1,h2,h3,h6 {
+    text-align: center;
+}
+
 div {
     padding-left: 1%;
     padding-right: 1%;
     margin-top: 3.5rem;
 }
+
 p {
     text-align: justify;
 }
+
 img {
     padding-left: 1%;
     padding-right: 1%;

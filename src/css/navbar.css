@@ -1,16 +1,43 @@
+nav img {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 nav > ul{
   list-style-type: none ;
-  text-align: center;
-  padding-left: 0;
+  padding: 0;
+
+  display: flex;
+  flex-direction: row;
+
+  width: 100%;
+  align-items: center;
+  justify-content: center;
 }
 nav > ul > li {
   display: inline;
   padding: 0 5px;
-
 }
 nav > li > a {
   text-decoration: none;
 }
 nav > li > a:hover {
   text-decoration: underline;
+}
+
+#logo > img {
+  height: 3rem;
+}
+
+@media screen and (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
 }
