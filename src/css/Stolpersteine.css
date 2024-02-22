@@ -1,0 +1,18 @@
+h1,h2,h3,h5
+{text-align: center;}
+div {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3.5rem;
+    text-size-adjust: 50px;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-top: 3.5rem;
+}
