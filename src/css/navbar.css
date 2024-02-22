@@ -8,6 +8,11 @@ nav img {
 nav {
   display: flex;
   justify-content: center;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  z-index: 100;
 }
 
 nav > ul{
