@@ -13,6 +13,7 @@
 
 body {
   background-color: var(--main-bg-color);
+  padding-top: 100px;
 }
 
 h1 {
