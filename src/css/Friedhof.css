@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+}
+
+.main {
+  max-width: 1400px;
+  padding: 5px;
+}
+
+.div-center-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.center-vertical {
+  align-items: center;
+  
+}
+
+.img-400px {
+  width: 400px;
+}
+
+.img-500px {
+  width: 500px;
+}
+
+.img-600px {
+  width: 600px;
+}
+
+.img-700px {
+  width: 700px;
+}
+
+.img-800px {
+  width: 800px;
+}
+
+.rounded-corners {
+   border-radius: 10px;
+}
+
+.margin-right {
+1m margin-right: 1.5rem;
+}
+
+.blocksatz {
+  text-align: justify;  
+}
+
+.containers {
+  padding: 20px;
+  padding-bottom: 40px;
+  margin-bottom: 100px;
+}
+
+#main-heading {
+  text-align: center;
+}
+
+.justifiy-space-around {
+  justify-content: space-around;
+}
+
+#ul-infos-auf-einen-blick {
+  list-style-type: none;
+}
+#ul-infos-auf-einen-blick > li {
+  padding-bottom: 0.5rem;
+  list-style-type: disc;
+}
+
+
+.test {
+  width: fit-content;
+  padding: 0 10px;
+}
+
+.accent-color {
+  color: #fc7753;
+}
+
+.primary-color {
+  color: #66d7d1;
+}
+
+.background-color {
+  color: #f2efea;
+}
+
+.accent-bgcolor {
+  background-color: #fc7753;
+}
+
+.primary-bgcolor {
+  background-color: #66d7d1;
+}
+
+.background-bgcolor {
+  background-color: #f2efea;
+}
+
+.link-accent-color {
+  color: #fc7753;
+}
+
+.link-accent-color:hover {
+  color: #fc7753;
+}
+
+.link-accent-color:visited {
+  color: #fc7753;
+}
+
+.padding-5px {
+  padding: 5px;
+}

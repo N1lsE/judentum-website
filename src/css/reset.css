@@ -53,13 +53,13 @@ p {
 a {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: #000;
 }
 
 a:hover {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: #000;
   opacity: 0.5;
 }
 
