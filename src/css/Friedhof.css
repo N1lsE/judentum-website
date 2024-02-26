@@ -56,7 +56,7 @@ body {
 }
 
 .margin-right {
-1m margin-right: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .blocksatz {
@@ -116,17 +116,25 @@ body {
 }
 
 .link-accent-color {
-  color: #fc7753;
+  text-decoration: underline;
+  text-decoration-color: #fc7753;
+  --webkit-text-decoration-color: #fc7753;
 }
 
-.link-accent-color:hover {
-  color: #fc7753;
-}
+/* .link-accent-color:hover { */
+/*   color: #fc7753; */
+/* } */
 
 .link-accent-color:visited {
-  color: #fc7753;
+  text-decoration: underline;
+  text-decoration-color: #fc7753;
+  --webkit-text-decoration-color: #fc7753;
 }
 
 .padding-5px {
   padding: 5px;
+}
+
+.no-hover:hover {
+  opacity: 1;
 }
