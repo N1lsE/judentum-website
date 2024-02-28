@@ -61,7 +61,11 @@ body {
   align-items: center;
 }
 
-.Element-Block > img {
-  height: 200px;
-  margin-left: 2rem;
+.Element-Block > p:not(:last-child) {
+  margin-right: 2rem;
+}
+
+#top > img {
+  margin-top: 2rem;
+  width: 100%;
 }
