@@ -61,9 +61,10 @@ body {
   align-items: center;
 }
 
-.Element-Block >{
+.Element-Block> p{
   margin-right: 2rem;
-  text-align: left;
+  
+  
 }
 
 #top > img {
