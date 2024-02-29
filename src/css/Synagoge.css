@@ -1,16 +1,30 @@
-h1{text-align: center;}
-h3{text-align: center;}
-h5{
-    text-align: center; 
-    margin-top: 2rem;
+@import "colorsceme.css";
+
+body {
+  background: var(--color_gradient_background);
 }
 
-div {
-    padding-left: 400px;
-    padding-right: 400px;
-    margin-top: 3.5rem;
-    background-color: rgb(176,196,222);
+h1 {
+  text-align: center;
 }
+h3 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main {
+  padding-left: 400px;
+  padding-right: 400px;
+  margin-top: 3.5rem;
+}
+
 p {
-    text-align: justify;
+  text-align: justify;
+}
+
+.accent_color_text {
+  color: var(--color_accent);
 }

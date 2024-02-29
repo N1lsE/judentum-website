@@ -2,6 +2,6 @@
   --color_accent: #fc7753;
   --color_primary: #66d7d1;
   --color_background: #f2efea;
-  --color_gradient_background: linear-gradient(#e66465, #9198e5);
+  --color_gradient_background: linear-gradient(to right, #f7f4ee, #c1b8ad);
   --color_text: #000;
 }
