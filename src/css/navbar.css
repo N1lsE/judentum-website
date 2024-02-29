@@ -1,3 +1,5 @@
+@import "colorsceme.css";
+
 nav img {
   padding: 0;
   margin: 0;
@@ -11,12 +13,12 @@ nav {
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
   width: 100%;
-  background-color: lightblue;
+  background-color: var(--color_primary);
   z-index: 100;
 }
 
-nav > ul{
-  list-style-type: none ;
+nav > ul {
+  list-style-type: none;
   padding: 0;
 
   display: flex;

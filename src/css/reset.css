@@ -1,7 +1,4 @@
-:root {
-  --main-fg-color: #000;
-  --main-bg-color: #fff;
-}
+@import "colorsceme.css";
 
 * {
   margin: 0;
@@ -9,6 +6,7 @@
   font-family: "Arial", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  color: var(--color_text);
 }
 
 body {
@@ -20,67 +18,69 @@ h1 {
   font-size: 5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h2 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h3 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h4 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h5 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 p {
   font-size: 1rem;
+  color: var(--color_text);
 }
 
 a {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: var(--color_text);
 }
 
 a:hover {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: var(--color_text);
   opacity: 0.5;
 }
 
 a:visited {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: var(--color_text);
 }
 
-a {
+.accent_underline {
   text-decoration: underline;
-  text-decoration-color: #fc7753;
-  --webkit-text-decoration-color: #fc7753;
+  text-decoration-color: var(--color_accent);
+  --webkit-text-decoration-color: var(--color_accent);
 }
 
-/* .link-accent-color:hover { */
-/*   color: #fc7753; */
-/* } */
-
-a:visited {
+.accent_underline:visited {
   text-decoration: underline;
-  text-decoration-color: #fc7753;
-  --webkit-text-decoration-color: #fc7753;
+  text-decoration-color: var(--color_accent);
+  --webkit-text-decoration-color: var(--color_accent);
 }
