@@ -68,3 +68,19 @@ a:visited {
   text-decoration: none;
   color: var(--main-fg-color);
 }
+
+a {
+  text-decoration: underline;
+  text-decoration-color: #fc7753;
+  --webkit-text-decoration-color: #fc7753;
+}
+
+/* .link-accent-color:hover { */
+/*   color: #fc7753; */
+/* } */
+
+a:visited {
+  text-decoration: underline;
+  text-decoration-color: #fc7753;
+  --webkit-text-decoration-color: #fc7753;
+}
