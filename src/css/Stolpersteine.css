@@ -1,14 +1,17 @@
-h1,h2,h3, h4,h5
-{
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-align: center;
 }
 
 div {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .stolperstein {
@@ -55,19 +58,43 @@ body {
 }
 
 .Element-Block {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 1rem;
 
-  align-items: center;
+  padding: 0 1rem;
 }
 
-.Element-Block> p{
-  margin-right: 2rem;
-  
-  
+.Element-Block > div {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.Element-Block > div > p {
+  text-align: justify;
+  /* text-align: left; */
+}
+
+.Element-Block > div > h5 {
+  margin: 0;
+  padding: 0;
+
+  text-align: left;
+  padding-bottom: 0.3rem;
+}
+
+#top {
+  margin: 2rem 0;
+  padding: 0;
 }
 
 #top > img {
-  margin-top: 2rem;
+  margin: 2rem 0;
+  padding: 0;
   width: 100%;
+}
+
+.max-width-1000 {
+  max-width: 1000px;
 }
