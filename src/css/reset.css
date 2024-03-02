@@ -55,6 +55,7 @@ h5 {
 p {
   font-size: 1rem;
   color: var(--color_text);
+  z-index: 300;
 }
 
 a {
