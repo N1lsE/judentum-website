@@ -11,7 +11,10 @@
 
 body {
   background-color: var(--main-bg-color);
-  padding-top: 100px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -71,6 +74,12 @@ a:visited {
   font-size: 1rem;
   text-decoration: none;
   color: var(--color_text);
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 .accent_underline {
