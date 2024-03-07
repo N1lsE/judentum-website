@@ -1,11 +1,16 @@
 h1,
 h2,
 h3,
-h4,
 h5 {
   text-align: center;
 }
-
+h4{
+  text-align: left;
+  margin-left: 20px;
+  text-decoration: underline;
+  font-size: 40px;
+  font-weight: 700;
+}
 div {
   padding: 0 10px;
 }
@@ -94,7 +99,16 @@ body {
   padding: 0;
   width: 100%;
 }
-
+body {
+  background-color:#66d7d118;
+}
 .max-width-1000 {
   max-width: 1000px;
+}
+#wave 
+  position: absolute;
+  height: 70px;
+  width: 600px;
+  background: #1cd441;
+  transition: left 3s ease;
 }
