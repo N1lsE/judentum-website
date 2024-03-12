@@ -26,7 +26,6 @@
 h1,
 h2,
 h3,
-h4,
 h5 {
   text-align: center;
 }
@@ -164,7 +163,9 @@ p {
   padding-bottom: 150px;
   width: 100%;
 }
-
+body {
+  background-color:#66d7d118;
+}
 .max-width-1000 {
   max-width: 1400px;
 }
@@ -230,3 +231,10 @@ p {
     margin-top: 0;
   }
 }
+/* #wave {
+  position: absolute;
+  height: 70px;
+  width: 600px;
+  background: #1cd441;
+  transition: left 3s ease;
+} */
