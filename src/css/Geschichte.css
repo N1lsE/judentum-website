@@ -4,3 +4,8 @@ h1 {
 div{
   margin: 20px;
 }
+
+#top {
+  margin: 2rem 0;
+  padding: 0;
+}
