@@ -33,7 +33,7 @@ h5 {
 #page-header {
   position: absolute;
   z-index: 200;
-  top: 45vh;
+  top: 100px;
   color: #fff;
   text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
     5px 2px 1px #000;
@@ -52,6 +52,8 @@ p {
   width: 100%; /* Full width */
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
 }
 
 #infos {
@@ -191,8 +193,8 @@ body {
 
 .down-arrow {
   position: absolute;
-  top: calc(100vh - 90px);
-  left: calc(100vw - 94px);
+  top: calc(35vh);
+  left: calc(50vw);
   width: 0;
   height: 30px;
   border: 2px solid;
