@@ -1,7 +1,22 @@
-h1 {
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-div{
-    padding: 30px 400px;
+
+.body-wrapper {
+    max-width: 800px;
+}
+
+.page_headder {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center contents horizontally */
+}
+
+.page_headder > * {
+    text-align: center;
 }
 
