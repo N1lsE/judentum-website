@@ -257,3 +257,9 @@ body {
 /*     margin-top: 0; */
 /*   } */
 /* } */
+
+@media screen and (max-width: 800px) {
+  .stolperstein {
+    flex-direction: column;
+  }
+}
