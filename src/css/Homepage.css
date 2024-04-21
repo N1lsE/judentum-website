@@ -4,8 +4,41 @@ body {
     align-items: center;
 }
 
+.page_section {
+  position: relative; /* Ensure the container is positioned */
+  width: 100%; /* Full width */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+}
+.page_section > h1 {
+  position: absolute;
+  z-index: 200;
+  top: 100px;
+  color: #fff;
+  text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
+    5px 2px 1px #000;
+}
+.page_section > h2 {
+  position: absolute;
+  z-index: 200;
+  top: 200px;
+  color: #fff;
+  text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
+    5px 2px 1px #000;
+}
+.info-image {
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
 .body-wrapper {
     max-width: 800px;
+    padding-bottom: 300px;
 }
 
 .page_headder {
