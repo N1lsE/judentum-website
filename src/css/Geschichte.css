@@ -1,14 +1,36 @@
-h1 {
-  text-align: center;
-}
-div{
-  margin: 20px;
-}
 h2{
-  size: 5px;
-  margin-right: 100%;
+  font-size: 1.5rem;
 }
-#top {
-  margin: 2rem 0;
-  padding: 0;
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-wrapper {
+    max-width: 1000px;
+
+    margin: 20px;
+}
+
+.segment {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.segment > .image {
+
+}
+
+.image > img {
+  width: 700px;
+  border-radius: 10px;
+  margin-left: 50px ;
+}
+
+.segment > text {
+  display: flex;
+  flex-direction: column;
 }
