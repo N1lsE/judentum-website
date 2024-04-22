@@ -156,7 +156,7 @@ p {
   z-index: 100;
   margin: 0;
   padding: 0;
-  padding-bottom: 150px;
+  margin-bottom: 50px;
   width: 100%;
 }
 body {
@@ -173,8 +173,8 @@ body {
 .custom-shape-divider-bottom-1709396499 {
   position: absolute;
   bottom: -41; /* Adjusted to move it up by 200px from the bottom of its containing div */
-  left: 0;
-  width: 100%;
+  left: -100;
+  width: 130%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
@@ -183,6 +183,7 @@ body {
 .custom-shape-divider-bottom-1709396499 svg {
   position: relative;
   display: block;
+  left: 0;
   width: calc(119% + 1.3px);
   height: 189px;
 }
