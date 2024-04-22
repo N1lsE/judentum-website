@@ -24,13 +24,27 @@ body {
 
 }
 
-.image > img {
-  width: 700px;
+.image-right > img {
+  width: 630px;
   border-radius: 10px;
   margin-left: 50px ;
+}
+
+.image-left > img {
+  width: 600px;
+  border-radius: 10px;
+  margin-right: 50px ;
 }
 
 .segment > text {
   display: flex;
   flex-direction: column;
+}
+
+.text > p {
+  text-align: justify;
+}
+
+.text:not(:last-child) {
+  margin-right: 1.5rem;
 }
