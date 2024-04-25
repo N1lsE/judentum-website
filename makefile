@@ -1,6 +1,6 @@
 build:
-	docker rmi my-apache2 || true # Remove the existing image if it already exists
-	docker build --no-cache -t my-apache2 .
+	sudo docker rmi my-apache2 || true # Remove the existing image if it already exists
+	sudo docker build --no-cache -t my-apache2 .
 
 create:
 	docker stop judentum-webserver || true  # Stop the existing container if it's running

@@ -19,6 +19,7 @@ body {
   color: #fff;
   text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
     5px 2px 1px #000;
+  text-align: center;
 }
 .page_section > h2 {
   position: absolute;
@@ -39,6 +40,7 @@ body {
 .body-wrapper {
     max-width: 800px;
     padding-bottom: 300px;
+    margin: 0 3rem;
 }
 
 .page_headder {
@@ -55,4 +57,5 @@ body {
 
 .intro > p {
     margin-bottom: 0.5rem;
+  text-align: justify;
 }
