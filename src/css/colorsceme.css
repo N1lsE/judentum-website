@@ -1,6 +1,10 @@
 :root {
-  --color_accent: #fc7753;
-  --color_primary: #66d7d1;
+  /* --color_accent: #fc7753; */
+  --color_accent: #820933;
+  /* --color_primary: #66d7d1; */
+  --color_primary:#92D5E6;
+  --color_primary_t:rgba(146,213,230, 0.9);
+
   --color_background: #f2efea;
   --color_gradient_background: linear-gradient(to right, #f7f4ee, #c1b8ad);
   --color_text: #000;

@@ -14,8 +14,7 @@ nav {
   position: fixed; /* Set the navbar to fixed position */
   top: 0;
   width: 100%;
-  /* background-color: var(--color_primary); */
-  background-color: var(--color_primary);
+  background-color: var(--color_primary_t);
   z-index: 1000;
 }
 
