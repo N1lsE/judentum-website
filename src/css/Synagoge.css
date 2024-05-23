@@ -1,6 +1,7 @@
 @import "colorsceme.css";
 
 body {
+
   background: var(--color_gradient_background);
 }
 
