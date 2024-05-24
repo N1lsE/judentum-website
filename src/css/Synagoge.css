@@ -17,7 +17,7 @@ h5 {
 .main {
   padding-left: 400px;
   padding-right: 400px;
-  margin-top: 3.5rem;
+  margin-top: 3.5rem;;
 }
 
 p {
@@ -42,7 +42,6 @@ body {
 
   margin: 20px;
 }
-
 
 .segment {
   display: flex;
@@ -89,16 +88,16 @@ body {
 
 }
 
-.image2 {
-display: flex;
+.image3 {
+  display: flex;
   flex-direction: row;
-  background-color: red;
 }
 
 .image-right > img {
   width: 630px;
   border-radius: 10px;
   margin-left: 50px ;
+  margin-top: 50px;
 }
 
 .image-left > img {
@@ -120,4 +119,16 @@ display: flex;
   margin-right: 1.5rem;
 }
 
-
+img {
+  max-width: 1000px;
+}
+.image1 > img{ /*neu*/
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 5px ;
+}
+.image2 > img{ /*neu*/
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 5px ;
+}
