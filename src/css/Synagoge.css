@@ -119,9 +119,6 @@ body {
   margin-right: 1.5rem;
 }
 
-img {
-  max-width: 1000px;
-}
 .image1 > img{ /*neu*/
   width: 500px;
   border-radius: 10px;
@@ -131,4 +128,15 @@ img {
   width: 500px;
   border-radius: 10px;
   margin-left: 5px ;
+}
+.image4 > img{ /*neu*/
+  max-width: 1000px;
+}
+a{ /*neu*/
+  text-decoration: underline;
+}
+a:hover{    /*neu*/
+  color:darkblue;
+  opacity: 120%;
+  text-decoration: underline;
 }
