@@ -15,8 +15,8 @@ h5 {
 }
 
 .main {
-  padding-left: 400px;
-  padding-right: 400px;
+  padding-left: 200px;
+  padding-right: 200px;
   margin-top: 3.5rem;
 }
 
@@ -27,6 +27,7 @@ p {
 .accent_color_text {
   color: var(--color_accent);
 }
+
 h7{
   font-size: 1.5rem;
 }
@@ -39,10 +40,8 @@ body {
 
 .body-wrapper {
   max-width: 1000px;
-
   margin: 20px;
 }
-
 
 .segment {
   display: flex;
@@ -51,7 +50,7 @@ body {
 }
 
 .page_section {
-  position: relative; /* Ensure the container is positioned */
+  position:relative; /* Ensure the container is positioned */
   width: 100%; /* Full width */
   margin: 0;
   padding: 0;
@@ -85,14 +84,20 @@ body {
   width: 100%;
   height: 600px;
   object-fit: cover;
-  object-position: 0 -470px;
+  object-position: 0 2px;
 
+}
+
+.image3 {
+  display: flex;
+  flex-direction: row;
 }
 
 .image-right > img {
   width: 630px;
   border-radius: 10px;
   margin-left: 50px ;
+  margin-top: 50px;
 }
 
 .image-left > img {
@@ -114,4 +119,24 @@ body {
   margin-right: 1.5rem;
 }
 
-
+.image1 > img{ /*neu*/
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 5px ;
+}
+.image2 > img{ /*neu*/
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 5px ;
+}
+.image4 > img{ /*neu*/
+  max-width: 1000px;
+}
+b{ /*neu*/
+  text-decoration: underline;
+}
+b:hover{    /*neu*/
+  color:darkblue;
+  opacity: 120%;
+  text-decoration: underline;
+}
