@@ -175,8 +175,8 @@ body {
 .custom-shape-divider-bottom-1709396499 {
   position: absolute;
   bottom: -41; /* Adjusted to move it up by 200px from the bottom of its containing div*/
-  left: -100;
-  width: 130%;
+  left:-100;
+  width: 100%;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
