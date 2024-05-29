@@ -6,6 +6,7 @@ body {
 
 .body-wrapper {
     max-width: 1000px;
+    padding-bottom: 200px;
 }
 
 .segment {
