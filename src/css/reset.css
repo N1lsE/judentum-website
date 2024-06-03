@@ -94,3 +94,9 @@ img {
   text-decoration-color: var(--color_accent);
   --webkit-text-decoration-color: var(--color_accent);
 }
+
+@media screen and (max-width: 650px) {
+  h1#page-header {
+    font-size: 3.5rem; 
+  }
+}

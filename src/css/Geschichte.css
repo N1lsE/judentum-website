@@ -55,7 +55,6 @@ body {
   width: 100%;
   height: 600px;
   object-fit: cover;
-  object-position: 0 -470px;
 }
 
 .image-right > img {
@@ -83,4 +82,3 @@ body {
   margin-right: 1.5rem;
 }
 
- 
