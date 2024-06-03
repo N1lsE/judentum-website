@@ -1,5 +1,9 @@
 @import url(colorsceme.css);
 
+body {
+  background-color:#66d7d118;
+}
+
 .svg-rotate-90 {
   z-index: 1;
   transform-origin: top left;
@@ -151,6 +155,7 @@ p {
 #top {
   margin: 2rem 0;
   padding: 0;
+  position: relative;
 }
 
 .info-image {
@@ -162,25 +167,19 @@ p {
   height: 600px;
   object-fit: cover;
 }
-body {
-  background-color:#66d7d118;
-}
 .max-width-1000 {
   max-width: 1400px;
 }
 
-#top {
-  position: relative;
-}
 
 .custom-shape-divider-bottom-1709396499 {
   position: absolute;
   bottom: -41; /* Adjusted to move it up by 200px from the bottom of its containing div*/
-  left:-100;
   width: 1580px;
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  width: 100vw;
 } 
 
 .custom-shape-divider-bottom-1709396499 svg {
