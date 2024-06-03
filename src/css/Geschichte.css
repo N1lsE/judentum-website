@@ -56,7 +56,6 @@ body {
   height: 600px;
   object-fit: cover;
   object-position: 0 -470px;
-
 }
 
 .image-right > img {
@@ -83,3 +82,5 @@ body {
 .text:not(:last-child) {
   margin-right: 1.5rem;
 }
+
+ 
