@@ -158,7 +158,6 @@ nav > li > a:hover {
   }
 }
 @media screen and (min-width: 651px) {
-
   .down-arrow {
     display: none;
   }

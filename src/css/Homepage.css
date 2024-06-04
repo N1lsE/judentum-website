@@ -40,24 +40,25 @@ body {
 }
 
 .body-wrapper {
-    max-width: 800px;
-    padding-bottom: 300px;
-    margin: 0 3rem;
+  max-width: 800px;
+  padding-bottom: 300px;
+  margin: 0 3rem;
 }
 
 .page_headder {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: center; /* Center contents horizontally */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center contents horizontally */
 }
 
 .page_headder > * {
-    text-align: center;
+  text-align: center;
 }
 
 .intro > p {
-    margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
   text-align: justify;
+  font-size: 1rem;
 }
