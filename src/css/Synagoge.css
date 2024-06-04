@@ -141,3 +141,66 @@ b:hover{    /*neu*/
   opacity: 120%;
   text-decoration: underline;
 }
+
+@media screen and (max-width: 1040px) {
+
+.segment {
+  flex-direction: column;
+  margin-bottom: 3rem;
+}
+.image3 {
+  flex-direction: column;
+}
+body {
+}
+.body-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-left > img {
+  width: 90vw;
+  border-radius: 10px;
+  margin: 0;
+}
+.image-right > img {
+  width: 90vw;
+  border-radius: 10px;
+  margin: 0;
+  margin-top: 1rem;
+}
+img {
+  width: 90vw;
+  border-radius: 10px;
+  margin: 0;
+}
+.text:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.image1 > img{ /*neu*/
+  width: 90vw;
+  border-radius: 10px;
+  margin: 0;
+}
+.image2 > img{ /*neu*/
+  width: 90vw;
+  border-radius: 10px;
+  margin: 0;
+}
+.image4 > img{ /*neu*/
+  width: 90vw;
+  border-radius: 10px;
+  margin: 0;
+}
+.main {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 300px;
+}
+h1, h3, h5{
+  text-align: left;
+  font-size: 1.5rem;
+}
+}

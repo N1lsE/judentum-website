@@ -18,7 +18,7 @@ body {
 .segment {
   display: flex;
   flex-direction: row;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 .page_section {
   position: relative; /* Ensure the container is positioned */
@@ -82,3 +82,30 @@ body {
   margin-right: 1.5rem;
 }
 
+@media screen and (max-width: 1040px) {
+
+  .segment {
+    flex-direction: column;
+  }
+  .image-right > img {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .image-left > img {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+
+  .text > p {
+    text-align: justify;
+    margin: 0;
+  }
+
+  .text:not(:last-child) {
+    margin: 0;
+    margin-bottom: 2.5rem;
+  }
+}

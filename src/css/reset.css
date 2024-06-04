@@ -97,11 +97,6 @@ img {
 
 @media screen and (max-width: 650px) {
   h1#page-header {
-    font-size: 3.5rem; 
-  }
-}
-@media screen and (min-width: 651px) {
-  h1#page-header {
-    font-size: 3.5rem; 
+    font-size: 3rem; 
   }
 }
