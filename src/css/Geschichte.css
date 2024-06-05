@@ -59,12 +59,14 @@ body {
 .image-right > img {
   width: 630px;
   border-radius: 10px;
+  border-radius: 0px;
   margin-left: 50px ;
 }
 
 .image-left > img {
-  width: 500px;
+  width: 100%;
   border-radius: 10px;
+  border-radius: 0px;
   margin-right: 50px ;
 }
 
@@ -81,15 +83,12 @@ body {
   margin-right: 1.5rem;
 }
 .text{
-  border-color:#000;
+  border-left: 2px dashed #555;
+  border-right: 2px dashed #555;
+  border-top: 3px solid #000;
+  border-bottom: 2px solid #555;
   border-radius: 1px;
-  border-top: #000;
-  border-top-style: groove;
   padding: 20px;
-  border-bottom-style: groove;
-  border-color: #000;
-  border-right-style: dashed;
-  border-left-style: dashed;
 }
 
 
