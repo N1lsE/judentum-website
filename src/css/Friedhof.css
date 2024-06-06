@@ -59,6 +59,15 @@ margin-left: 50px ;
 
 .content > p {
   font-size: 1rem;
+  
+}
+p> a{ /*neu*/
+  text-decoration: underline;
+}
+p > a:hover{    /*neu*/
+  color: darkblue;
+  opacity: 120%;
+  text-decoration: underline;
 }
 
 .page_section {
