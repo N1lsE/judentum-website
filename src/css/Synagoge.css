@@ -130,13 +130,13 @@ body {
   border-radius: 10px;
   margin-left: 5px ;
 }
-.image4 > img{ /*neu*/
+.image4 > a > img, .image4 > img { /*neu*/
   max-width: 1000px;
 }
-b{ /*neu*/
+p> a{ /*neu*/
   text-decoration: underline;
 }
-b:hover{    /*neu*/
+p > a:hover{    /*neu*/
   color:darkblue;
   opacity: 120%;
   text-decoration: underline;
