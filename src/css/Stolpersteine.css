@@ -123,6 +123,10 @@ p {
   font-size: 1.5rem;
   margin-bottom: 5px;
 }
+.stolpertein__ul > ul > li > a {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
 
 .stolperstein > img {
   width: 300px;
