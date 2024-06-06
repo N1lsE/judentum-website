@@ -91,23 +91,18 @@ p {
 .stolperstein {
   display: flex;
   flex-direction: row;
-
   align-items: center;
   justify-content: space-around;
   margin: 0;
-  margin: 0 10px;
-  margin-bottom: 0.3rem;
   padding: 10px;
 }
 .stolperstein {
-  
-  border: #000;
+  border: #ccc;
   border-top-style: dashed;
   border-radius: 0px;
-  border-width: 3px;
+  border-width: 2px;
 }
 .border-none {
-  
   border: none;
 }
 
