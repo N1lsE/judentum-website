@@ -222,6 +222,7 @@ p {
   }
 .stolpertein__ul {
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .stolpertein__ul > ul {

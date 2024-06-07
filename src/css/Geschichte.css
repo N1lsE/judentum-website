@@ -96,11 +96,10 @@ h5 {
   font-family: 'Playfair Display', serif;
   font-weight: 300;
   font-size: 2rem;
-  text-transform: uppercase;
   display: inline-block;
   line-height: 1.8rem;
   margin-bottom: 20px;
-
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 1040px) {
@@ -152,7 +151,11 @@ h5 {
     padding: 0;
   }
   h5 {
+    font-family: "Arial", sans-serif;
     font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    text-transform: none;
   }
   .image-right > div, .image-right > div > img {
     width: 100%;
