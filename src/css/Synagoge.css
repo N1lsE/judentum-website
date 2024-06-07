@@ -77,16 +77,16 @@ body {
   text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
   5px 2px 1px #000;
 }
-.info-image {
+#Hero {
+  height: 600px;
+  margin-bottom: 50px;
+}
+#Hero > .blur-load > .info-image {
   z-index: 100;
   margin: 0;
   padding: 0;
-  margin-bottom: 50px;
   width: 100%;
-  height: 600px;
   object-fit: cover;
-  object-position: 0 2px;
-
 }
 
 .image3 {
@@ -94,17 +94,25 @@ body {
   flex-direction: row;
 }
 
-.image-right > img {
+
+.image-right > .blur-load, .image-right > .blur-load  > img {
   width: 630px;
   border-radius: 10px;
   margin-left: 50px ;
   margin-top: 50px;
 }
+.image-right > .blur-load  > img {
+  margin: 0;
+}
 
-.image-left > img {
+.image-left > .blur-load , .image-left > .blur-load  > img{
   width: 500px;
   border-radius: 10px;
   margin-right: 50px ;
+  padding: 0;
+}
+.image-left > .blur-load  > img {
+  margin: 0;
 }
 
 .segment > text {
@@ -120,17 +128,25 @@ body {
   margin-right: 1.5rem;
 }
 
-.image1 > img{ /*neu*/
+.image1 > .blur-load, .image1 > .blur-load > img{ /*neu*/
   width: 500px;
   border-radius: 10px;
   margin-right: 5px ;
 }
-.image2 > img{ /*neu*/
+.image1 > .blur-load > img{ /*neu*/
+  margin: 0;
+}
+
+.image2 > .blur-load, .image2 > .blur-load > img{ /*neu*/
   width: 500px;
   border-radius: 10px;
   margin-left: 5px ;
 }
-.image4 > a > img, .image4 > img { /*neu*/
+.image2 > .blur-load > img{ /*neu*/
+  margin: 0;
+}
+
+.image4 > a > .blur-load, .image4 > .blur-load,  .image4 > .blur-load > img,  .image4 > a > .blur-load > img { /*neu*/
   max-width: 1000px;
 }
 p> a{ /*neu*/
@@ -143,64 +159,75 @@ p > a:hover{    /*neu*/
 }
 
 @media screen and (max-width: 1040px) {
+  .segment {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .image3 {
+    flex-direction: column;
+  }
+  .body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-left > .blur-load , .image-left > .blur-load  > img{
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .image-right > .blur-load , .image-right > .blur-load  > img {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .text:not(:last-child) {
+    margin-right: 1.5rem;
+  }
 
-.segment {
-  flex-direction: column;
-  margin-bottom: 3rem;
-}
-.image3 {
-  flex-direction: column;
-}
-body {
-}
-.body-wrapper {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.image-left > img {
-  width: 90vw;
-  border-radius: 10px;
-  margin: 0;
-}
-.image-right > img {
-  width: 90vw;
-  border-radius: 10px;
-  margin: 0;
-  margin-top: 1rem;
-}
-img {
-  width: 90vw;
-  border-radius: 10px;
-  margin: 0;
-}
-.text:not(:last-child) {
-  margin-right: 1.5rem;
-}
-
-.image1 > img{ /*neu*/
-  width: 90vw;
-  border-radius: 10px;
-  margin: 0;
-}
-.image2 > img{ /*neu*/
-  width: 90vw;
-  border-radius: 10px;
-  margin: 0;
-}
-.image4 > img{ /*neu*/
-  width: 90vw;
-  border-radius: 10px;
-  margin: 0;
-}
-.main {
-  margin: 0;
-  padding: 0;
-  padding-bottom: 300px;
-}
-h1, h3, h5{
-  text-align: left;
-  font-size: 1.5rem;
-}
+  .image1 > .blur-load, .image1 > .blur-load > img { /*neu*/
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .image1 > .blur-load { /*neu*/
+    margin-bottom: 20px;
+  }
+  .image2 > .blur-load, .image2 > .blur-load > img { /*neu*/
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .image4 > .blur-load, .image4 > .blur-load > img { /*neu*/
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .main {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 300px;
+    width: 100%;
+  }
+  h1, h3, h5 {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .image-right {
+    width: 90vw;
+  }
+  .image-left {
+    width: 90vw;
+  }
+  img {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .blur-load {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
 }

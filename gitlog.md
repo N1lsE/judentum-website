@@ -1,3 +1,87 @@
+commit 73698dd08b86c372da3159c25cc63cc2cd5c9028
+Author: Nils <nilseckerle2001@gmail.com>
+Date:   Thu Jun 6 11:45:25 2024 +0200
+
+    fixed fehler
+
+commit 40c1ebd723d81013166c408a694d45c01800dc32
+Merge: b26dd3a d7e2a2c
+Author: Moon <151737880+moonpet@users.noreply.github.com>
+Date:   Thu Jun 6 11:34:44 2024 +0200
+
+    Merge branch 'dev' of https://github.com/N1lsE/judentum-website into dev
+
+commit b26dd3a2e1250a67281ca46d3507ced5eb85f0ca
+Author: Moon <151737880+moonpet@users.noreply.github.com>
+Date:   Thu Jun 6 11:34:41 2024 +0200
+
+    Fehler
+
+commit d7e2a2c5f5e27d3f7fdd93785fde8129aacd4cec
+Author: Yannis <Yannis.oranien@gmx.de>
+Date:   Thu Jun 6 11:28:09 2024 +0200
+
+    Update Synagoge.html
+
+commit 99da6f425c27e5a555e3e117111ba74436d4f0d2
+Author: Yannis <Yannis.oranien@gmx.de>
+Date:   Thu Jun 6 11:27:24 2024 +0200
+
+    Rechtschreibung
+
+commit 7fcce933fa1fd5259b5908a9d1231f10c03de8cd
+Merge: 11cd7d3 8c0b742
+Author: Yannis <Yannis.oranien@gmx.de>
+Date:   Thu Jun 6 11:25:26 2024 +0200
+
+    Merge branch 'dev' of https://github.com/N1lsE/judentum-website into dev
+
+commit 11cd7d324aa2e1e6eb1e43a94f4d5d2f5a6699fb
+Author: Yannis <Yannis.oranien@gmx.de>
+Date:   Thu Jun 6 11:25:01 2024 +0200
+
+    hna
+    
+    hna
+
+commit 8c0b7421f0b638346a3cc3fa44cd614b2e1189a2
+Merge: 74ccb86 ae7adf6
+Author: JustLu1s <luisrummel@web.de>
+Date:   Thu Jun 6 11:24:50 2024 +0200
+
+    Merge branch 'dev' of https://github.com/N1lsE/judentum-website into dev
+
+commit 74ccb866d59d8dac7640ba82af01fb7b1fa05b94
+Author: JustLu1s <luisrummel@web.de>
+Date:   Thu Jun 6 11:24:40 2024 +0200
+
+    Link repariert und Text verbessert
+
+commit ae7adf60189d33fefd03e627b1590c5631b3d013
+Author: Yannis <Yannis.oranien@gmx.de>
+Date:   Thu Jun 6 11:19:52 2024 +0200
+
+    hna artikel verlinkt
+
+commit 28054d6c363cda00649bcf71cd93c880f2d2f605
+Merge: 0586c6c 13148a9
+Author: Nils <nilseckerle2001@gmail.com>
+Date:   Thu Jun 6 10:59:18 2024 +0200
+
+    Merge branch 'dev' of github.com:N1lsE/judentum-website into dev
+
+commit 0586c6c17224ad7166db520cbc99da4da1e7863f
+Author: Nils <nilseckerle2001@gmail.com>
+Date:   Thu Jun 6 10:59:14 2024 +0200
+
+    Geschichte klagemauer img
+
+commit 13148a925f1f5552c35fcfa932ee9e9e89359cac
+Author: Moon <151737880+moonpet@users.noreply.github.com>
+Date:   Thu Jun 6 10:55:13 2024 +0200
+
+    Text Reichskristallnacht geändert
+
 commit 31117664c3e3c4ecca88ed2a8387c2d9994a8a44
 Author: Nils <nilseckerle2001@gmail.com>
 Date:   Wed Jun 5 13:00:45 2024 +0200
@@ -23,19 +107,6 @@ Author: JustLu1s <luisrummel@web.de>
 Date:   Wed Jun 5 10:20:55 2024 +0200
 
     Rechtschreibfehler bei Synagoge verbessert
-
-commit 1778fb98aa99b98cf38b4de122f09a1bbf24f6c5
-Merge: 435c05c 3d97041
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Wed Jun 5 09:50:50 2024 +0200
-
-    On dev: j
-
-commit 3d970419903ad127fe7427e5b8bfe1d4810409c6
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Wed Jun 5 09:50:50 2024 +0200
-
-    index on dev: 435c05c mobile content anpassung
 
 commit 435c05cbe0fd2db82f68a29b0180dbb40b719416
 Author: Nils <nilseckerle2001@gmail.com>
@@ -320,6 +391,13 @@ Date:   Wed May 22 11:18:27 2024 +0200
 
     Geschichte
 
+commit bfbfdf1172098339d9b7fb6fe4b045c4a8d499cd
+Merge: 72eb723 280b3b0
+Author: Nils <nilseckerle2001@gmail.com>
+Date:   Wed May 22 11:16:25 2024 +0200
+
+    Merge branch 'dev' of github.com:N1lsE/judentum-website into dev
+
 commit 280b3b08daa3ff4893505c6b561901d6de4778e5
 Author: Yannis <Yannis.oranien@gmx.de>
 Date:   Wed May 22 11:16:32 2024 +0200
@@ -327,13 +405,6 @@ Date:   Wed May 22 11:16:32 2024 +0200
     Update Synagoge.html
     
     Texte unterteilt viel spässsschen
-
-commit bfbfdf1172098339d9b7fb6fe4b045c4a8d499cd
-Merge: 72eb723 280b3b0
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Wed May 22 11:16:25 2024 +0200
-
-    Merge branch 'dev' of github.com:N1lsE/judentum-website into dev
 
 commit 72eb72319e20ddc37c3f98e97342882b5a194dd1
 Author: Nils <nilseckerle2001@gmail.com>
@@ -452,19 +523,6 @@ Date:   Thu Mar 14 13:05:59 2024 +0100
 
     .
 
-commit 7f5ec9d7953793e9413ddb761feeee1affeaa158
-Merge: a13b59d 1114c7c
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Mar 14 12:58:09 2024 +0100
-
-    On dev: a
-
-commit 1114c7c0ed9fdc5a17a497e466648e8be6f35962
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Mar 14 12:58:09 2024 +0100
-
-    index on dev: a13b59d navbar current side underline
-
 commit a13b59d661cedd31ca49f8540b39ecbd23a550d0
 Author: Nils <nilseckerle2001@gmail.com>
 Date:   Tue Mar 12 10:24:05 2024 +0100
@@ -556,19 +614,6 @@ Date:   Thu Feb 29 14:43:01 2024 +0100
 
     links in reset.css
 
-commit a98fd76b59df10207fe72923efa149f85affc3fa
-Merge: a947206 75a9535
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Feb 29 14:39:30 2024 +0100
-
-    On stolpersteine-neu: test
-
-commit 75a9535a36c1281a361414e03f92c85d422bdbac
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Feb 29 14:39:30 2024 +0100
-
-    index on stolpersteine-neu: a947206 .
-
 commit ffd2333c4721ddf510e4fa472c4f82c1b6690696
 Author: Moon <151737880+moonpet@users.noreply.github.com>
 Date:   Wed Feb 28 20:29:21 2024 +0100
@@ -610,18 +655,6 @@ Author: Moon <151737880+moonpet@users.noreply.github.com>
 Date:   Tue Feb 27 19:05:08 2024 +0100
 
     Änderung Farbe u. Text
-
-commit 3044f6ac0dca71f1e2491f9da4eb2ee2f2c330e1
-Author: nils <nilseckerle2001@gmail.com>
-Date:   Mon Feb 26 08:25:25 2024 +0100
-
-    small fixes
-
-commit 4b606b8bc1aae68deb87064bdbaea2f6acd82e48
-Author: nils <nilseckerle2001@gmail.com>
-Date:   Sun Feb 25 01:13:49 2024 +0100
-
-    test new layout
 
 commit a6b48e350e5b6b20f93c4a9d9333264a68659b43
 Merge: 2c250b3 b65b94e
@@ -773,19 +806,6 @@ Date:   Wed Feb 14 11:56:29 2024 +0100
 
     Stolpersteine Tabelle mit richtigen Nmaen
 
-commit f12d7ba8fc65a859ef3891c2c3f15f041ac77540
-Merge: cc75512 f01e9ce
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Wed Feb 14 11:16:57 2024 +0100
-
-    On dev: a
-
-commit f01e9ce7a475576b3b7b82953809120056b3987f
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Wed Feb 14 11:16:57 2024 +0100
-
-    index on dev: cc75512 Update Stolpersteine.html
-
 commit 163c4d14ec6a08128121250bc4c5659687f800a0
 Author: Moon <151737880+moonpet@users.noreply.github.com>
 Date:   Sat Feb 10 23:15:44 2024 +0100
@@ -797,12 +817,6 @@ Author: Moon <151737880+moonpet@users.noreply.github.com>
 Date:   Sat Feb 10 22:08:28 2024 +0100
 
     Position link
-
-commit bd2717a2baf5f9ec2645800b17bd792419720328
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Fri Feb 9 08:50:39 2024 +0100
-
-    running wordpress
 
 commit cc75512eaac3c1043fabfa043146fbd4db52da8a
 Author: Moon <151737880+moonpet@users.noreply.github.com>
@@ -906,19 +920,6 @@ Author: Moon <151737880+moonpet@users.noreply.github.com>
 Date:   Thu Feb 8 12:28:08 2024 +0100
 
     Stolpersteine Anfang
-
-commit 32a1552bddbc2e729c38de984ae4a764dfc48e78
-Merge: 4927183 75e1a3d
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Feb 8 11:32:31 2024 +0100
-
-    On dev: g
-
-commit 75e1a3d52214ab4f6d3444d54edd2b94164c3102
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Feb 8 11:32:31 2024 +0100
-
-    index on dev: 4927183 Added Logo to index.html & homepage.html
 
 commit 49271833d30ec8dea52464520409f846d8833bce
 Author: Nils <nilseckerle2001@gmail.com>
@@ -1078,27 +1079,6 @@ Author: Yannis <Yannis.oranien@gmx.de>
 Date:   Thu Jan 25 10:40:41 2024 +0100
 
     pink
-
-commit 7c6abea92862e6655bf8d0c02911b5f4864f6ba3
-Merge: e3c90c7 39ebafd
-Author: Nils <79533248+N1lsE@users.noreply.github.com>
-Date:   Thu Jan 25 09:58:05 2024 +0100
-
-    Merge pull request #2 from N1lsE/N1lsE-patch-1
-    
-    Update index.html
-
-commit 39ebafd2672ff757bef4878707f5c82b933d1007
-Author: Nils <79533248+N1lsE@users.noreply.github.com>
-Date:   Thu Jan 25 09:57:48 2024 +0100
-
-    Update index.html
-
-commit e3c90c7eb69dd858f08ea3dd1ba647640bc9b903
-Author: Nils <nilseckerle2001@gmail.com>
-Date:   Thu Jan 25 09:56:26 2024 +0100
-
-    TEST
 
 commit 5f501406088a597cebce3298f82902becbd6f831
 Author: Nils <nilseckerle2001@gmail.com>

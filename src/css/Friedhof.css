@@ -28,10 +28,9 @@ body {
   justify-content: space-around;
 }
 
-.element_image > img {
+.element_image > div.blur-load, .element_image > div.blur-load > img {
   width: 375px;
-border-radius: 10px;
-margin-left: 50px ;
+  border-radius: 10px;
 }
 
 .element_text {
@@ -86,13 +85,15 @@ margin-left: 50px ;
   text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
     5px 2px 1px #000;
 }
-.info-image {
+#Hero {
+  height: 600px;
+  margin-bottom: 50px;
+}
+#Hero > .blur-load > .info-image {
   z-index: 100;
   margin: 0;
   padding: 0;
-  padding-bottom: 50px;
   width: 100%;
-  height: 600px;
   object-fit: cover;
   filter: saturate(130%);
   filter: contrast(1000%);
@@ -104,9 +105,13 @@ margin-left: 50px ;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 0;
+  margin: 0 20px;
 }
   .element_text {
     flex-direction: column;
+    padding: 0;
+    margin: 0;
   }
   .element_image {
     flex-direction: column;
@@ -118,9 +123,13 @@ margin-left: 50px ;
     margin-left: 0;
   }
   .content {
+    margin: 0;
     margin-bottom: 1rem;
+    padding: 0;
+  width: 100%;
   }
 .content > p {
   text-align: justify;
+  width: 100%;
 }
 }

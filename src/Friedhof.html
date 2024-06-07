@@ -14,7 +14,7 @@
     </head>
 
     <body>
-      <img src="Friedhof/klagemauer3.jpg" style="position: fixed; z-index: -100; opacity: 0.1; width: 100vw; top: 0;">
+      <img loading="lazy" src="Friedhof/klagemauer3.jpg" style="position: fixed; z-index: -100; opacity: 0.1; width: 100vw; top: 0;">
 
     <div class="down-arrow" style="top:430px;"></div>
 
@@ -22,7 +22,7 @@
       <ul>
         <li>
           <a href="index.html" id="logo">
-            <img src="Gruppen-Logo.png" alt="LOGO">
+            <img loading="lazy" src="Gruppen-Logo.png" alt="LOGO">
           </a>
         </li>
         <!-- Text -->
@@ -69,10 +69,12 @@
       </ul>
     </nav>
 
-      <div class="page_section" id="Hero">
-        <h1 id="page-header">Friedhof</h1>
-        <img src="Friedhof/Fritzlar_Judenfriedhof.JPG" alt="" class="info-image">
+    <div class="page_section" id="Hero">
+      <h1 id="page-header">Friedhof</h1>
+      <div class="blur-load" style="background-image: url(Friedhof/Fritzlar_Judenfriedhof-small.JPG);">
+        <img loading="lazy" src="Friedhof/Fritzlar_Judenfriedhof.JPG" alt="" class="info-image">
       </div>
+    </div>
 
 
       <div class="body-wrapper">
@@ -88,7 +90,9 @@
                 <p>Die Friedhofsfläche umfasst 48 Ar (4.800 m²). Insgesamt sind dort heute 153 Grabsteine (Mazewa) vorhanden, die aus verschiedenen Zeiträumen zwischen 1733 und 1948 stammen.</p>
               </div>
             </div>
-            <img src="Friedhof\IMG-20240222-WA0007.jpg" alt="">
+          <div class="blur-load" style="height: 375px; background-image: url(Friedhof/IMG-20240222-WA0007-small.jpg);">
+            <img loading="lazy" src="Friedhof/IMG-20240222-WA0007.jpg" alt="">
+          </div>
           </div>
 
           <div class="element_text">
@@ -109,7 +113,7 @@
             </div>
           </div>
         </div>
-        
-            </div>
+    </div>
+    <script src="blur-image.js"></script>
     </body>
   </html>

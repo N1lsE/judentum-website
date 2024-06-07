@@ -4,8 +4,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/Geschichte.css" />
     <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/Geschichte.css" />
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.3.0/uicons-brands/css/uicons-brands.css'> <!-- Instagram Icon -->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-solid-rounded/css/uicons-solid-rounded.css'> <!-- globe Icon -->
   <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.4.0/uicons-regular-rounded/css/uicons-regular-rounded.css'> <!-- point marker Icon -->
@@ -18,7 +18,7 @@
       <ul>
         <li>
           <a href="index.html" id="logo">
-            <img src="Gruppen-Logo.png" alt="LOGO">
+            <img loading="lazy" src="Gruppen-Logo.png" alt="LOGO">
           </a>
         </li>
         <!-- Text -->
@@ -70,7 +70,9 @@
 
   <div class="page_section" id="Hero">
     <h1 id="page-header">Geschichte</h1>
-    <img src="Geschichte/Juden_Raus_Foto-transformed.jpeg" alt="" class="info-image">
+    <div class="blur-load" style="background-image: url(Geschichte/Juden_Raus_Foto-transformed-small.jpeg);">
+      <img loading="lazy" src="Geschichte/Juden_Raus_Foto-transformed.jpeg" alt="" class="info-image">
+    </div>
   </div>
       <div class="body-wrapper">
         <div class="segment">
@@ -81,7 +83,9 @@
             </p>
           </div>
           <div class="image image-right">
-            <img src="Stolpersteine/Kinder_Jüdisches-Leben.jpg" alt="" />
+        <div class="blur-load" style="aspect-ratio: 40 / 27; background-image: url(Stolpersteine/Kinder_Jüdisches-Leben-small.jpg);">
+          <img loading="lazy" src="Stolpersteine/Kinder_Jüdisches-Leben.jpg" alt="" />
+        </div>
           </div>
         </div>
 
@@ -105,7 +109,6 @@
         <div class="text">
           <h5>Der Holocaust</h5>
           <p>
-           
             Ab September des folgenden Jahres, während des Zweiten Weltkriegs, begann der Holocaust - ein Massenmord an Juden. Insgesamt kamen 6 Millionen Juden ums Leben. Sie wurden vertrieben, degradiert und getötet. Einige starben qualvoll in Konzentrationslagern oder auf Todesmärschen, auf denen sie durch Erschöpfung, Unterkühlung und Hungersnot ums Leben kamen.
          </p>
         </div>
@@ -116,14 +119,16 @@
           <p>
            Der Tag des Holocaust wird Jahre später als ein Gedenktag der Opfer ernannt und findet jedes Jahr am 27. Januar statt.
          </p>
-        
       </div>
     </div>
     </div>
     <div class="segment">
       <div class="image image-left">
-        <img src="Geschichte/Zentrale_Judentum_Gedenkstaette.jpg" alt="">
+        <div class="blur-load" style="aspect-ratio: 40 / 27; background-image: url(Geschichte/Zentrale_Judentum_Gedenkstaette-small.jpg);">
+          <img loading="lazy" src="Geschichte/Zentrale_Judentum_Gedenkstaette.jpg" alt="">
+        </div>
       </div>
     </div>
   </div>
+  <script src="blur-image.js"></script>
 </body>

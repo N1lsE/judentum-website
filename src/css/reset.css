@@ -93,6 +93,19 @@ img {
   text-decoration: underline;
   text-decoration-color: var(--color_accent);
   --webkit-text-decoration-color: var(--color_accent);
+} 
+
+.blur-load {
+  display: flex;
+  width: 100%;
+  background-size: cover;
+}
+.blur-load.loaded > img {
+  opacity: 1;
+}
+.blur-load > img {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
 }
 
 @media screen and (max-width: 650px) {

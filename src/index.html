@@ -20,7 +20,7 @@
       <ul>
         <li>
           <a href="index.html" id="logo">
-            <img src="Gruppen-Logo.png" alt="LOGO">
+            <img loading="lazy" src="Gruppen-Logo.png" alt="LOGO">
           </a>
         </li>
         <!-- Text -->
@@ -67,10 +67,12 @@
       </ul>
     </nav>
 
-      <div class="page_section" id="Hero">
-        <h1 id="page-header">Jüdisches Leben<br>in Fritzlar</h1>
-        <img src="homepage/judentum-hero-image2.jpg" alt="" class="info-image">
+    <div class="page_section" id="Hero">
+      <h1 id="page-header">Jüdisches Leben<br>in Fritzlar</h1>
+      <div class="blur-load" style="background-image: url(homepage/judentum-hero-image2-small.jpg);">
+        <img loading="lazy" src="homepage/judentum-hero-image2.jpg" alt="" class="info-image">
       </div>
+    </div>
 
       <div class="body-wrapper">
         <div class="intro">
@@ -88,5 +90,6 @@
           </p>
         </div>
       </div>
+    <script src="blur-image.js"></script>
     </body>
   </html>

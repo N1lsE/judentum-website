@@ -106,8 +106,14 @@ p {
   border: none;
 }
 
+
+.stolperstein > div, .stolperstein > div > img {
+  width: 350px;
+  border-radius: 10px;
+}
+
 .stolpertein__ul {
-  width: 100%;
+  width: 400px;
 }
 
 .stolpertein__ul > ul {
@@ -123,10 +129,6 @@ p {
   margin-bottom: 5px;
 }
 
-.stolperstein > img {
-  width: 300px;
-  border-radius: 10px;
-}
 
 .main {
   max-width: 1000px;
@@ -166,13 +168,15 @@ p {
   position: relative;
 }
 
-.info-image {
+#Hero {
+  height: 600px;
+  margin-bottom: 50px;
+}
+#Hero > .blur-load > .info-image {
   z-index: 100;
   margin: 0;
   padding: 0;
-  margin-bottom: 50px;
   width: 100%;
-  height: 600px;
   object-fit: cover;
 }
 .max-width-1000 {
@@ -222,6 +226,10 @@ p {
 }
 
 .stolpertein__ul > ul > li {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+.stolpertein__ul > ul > li > a {
   font-size: 1rem;
   margin-bottom: 5px;
 }
