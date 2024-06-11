@@ -68,6 +68,14 @@ p > a:hover{    /*neu*/
   opacity: 120%;
   text-decoration: underline;
 }
+p> b{ /*neu*/
+  text-decoration: underline;
+}
+p > b:hover{    /*neu*/
+  color: darkblue;
+  opacity: 120%;
+  text-decoration: underline;
+}
 
 .page_section {
   position: relative; /* Ensure the container is positioned */
