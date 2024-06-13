@@ -1,0 +1,73 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page_section {
+  position: relative; /* Ensure the container is positioned */
+  width: 100%; /* Full width */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+}
+.page_section > h1 {
+  position: absolute;
+  z-index: 200;
+  top: 100px;
+  color: #fff;
+  text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
+    5px 2px 1px #000;
+  text-align: center;
+}
+.page_section > h2 {
+  position: absolute;
+  z-index: 200;
+  top: 200px;
+  color: #fff;
+  text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
+    5px 2px 1px #000;
+}
+
+.body-wrapper {
+  max-width: 800px;
+  padding-bottom: 300px;
+  margin: 0 60px;
+}
+
+.page_headder {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center contents horizontally */
+}
+
+.page_headder > * {
+  text-align: center;
+}
+
+.intro > p {
+  margin-bottom: 0.5rem;
+  text-align: justify;
+  font-size: 1rem;
+}
+#Hero {
+  height: 600px;
+  margin-bottom: 50px;
+}
+#Hero > .blur-load > .info-image {
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1040px) {
+.body-wrapper {
+  margin: 0 20px;
+}
+}
+

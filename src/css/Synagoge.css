@@ -1,0 +1,233 @@
+@import "colorsceme.css";
+
+
+
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.main {
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 3.5rem;
+  padding-bottom: 200px;
+}
+
+p {
+  text-align: justify;
+}
+
+.accent_color_text {
+  color: var(--color_accent);
+}
+
+h7{
+  font-size: 1.5rem;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.body-wrapper {
+  max-width: 1000px;
+  margin: 20px;
+}
+
+.segment {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3rem;
+}
+
+.page_section {
+  position:relative; /* Ensure the container is positioned */
+  width: 100%; /* Full width */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Center contents horizontally */
+}
+
+.page_section > h1 {
+  position: absolute;
+  z-index: 200;
+  top: 100px;
+  color: #fff;
+  text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
+  5px 2px 1px #000;
+  text-align: center;
+}
+
+.page_section > h2 {
+  position: absolute;
+  z-index: 200;
+  top: 200px;
+  color: #fff;
+  text-shadow: -1px -1px 1px #000, 4px 3px 1px var(--color_accent),
+  5px 2px 1px #000;
+}
+#Hero {
+  height: 600px;
+  margin-bottom: 50px;
+}
+#Hero > .blur-load > .info-image {
+  z-index: 100;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.image3 {
+  display: flex;
+  flex-direction: row;
+}
+
+
+.image-right > .blur-load, .image-right > .blur-load  > img {
+  width: 630px;
+  border-radius: 10px;
+  margin-left: 50px ;
+  margin-top: 50px;
+}
+.image-right > .blur-load  > img {
+  margin: 0;
+}
+
+.image-left > .blur-load , .image-left > .blur-load  > img{
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 50px ;
+  padding: 0;
+}
+.image-left > .blur-load  > img {
+  margin: 0;
+}
+
+.segment > text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text > p {
+  text-align: justify;
+}
+
+.text:not(:last-child) {
+  margin-right: 1.5rem;
+}
+
+.image1 > .blur-load, .image1 > .blur-load > img{ /*neu*/
+  width: 500px;
+  border-radius: 10px;
+  margin-right: 5px ;
+}
+.image1 > .blur-load > img{ /*neu*/
+  margin: 0;
+}
+
+.image2 > .blur-load, .image2 > .blur-load > img{ /*neu*/
+  width: 500px;
+  border-radius: 10px;
+  margin-left: 5px ;
+}
+.image2 > .blur-load > img{ /*neu*/
+  margin: 0;
+}
+
+.image4 > a > .blur-load, .image4 > .blur-load,  .image4 > .blur-load > img,  .image4 > a > .blur-load > img { /*neu*/
+  max-width: 1000px;
+}
+p> a{ /*neu*/
+  text-decoration: underline;
+}
+p > a:hover{    /*neu*/
+  color:darkblue;
+  opacity: 120%;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 1040px) {
+  .segment {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .image3 {
+    flex-direction: column;
+  }
+  .body-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .image-left > .blur-load , .image-left > .blur-load  > img{
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .image-right > .blur-load , .image-right > .blur-load  > img {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 1rem;
+  }
+  .text:not(:last-child) {
+    margin-right: 1.5rem;
+  }
+
+  .image1 > .blur-load, .image1 > .blur-load > img { /*neu*/
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .image1 > .blur-load { /*neu*/
+    margin-bottom: 20px;
+  }
+  .image2 > .blur-load, .image2 > .blur-load > img { /*neu*/
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .image4 > .blur-load, .image4 > .blur-load > img { /*neu*/
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .main {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 300px;
+    width: 100%;
+  }
+  h1, h3, h5 {
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .image-right {
+    width: 90vw;
+  }
+  .image-left {
+    width: 90vw;
+  }
+  img {
+    width: 90vw;
+    border-radius: 10px;
+    margin: 0;
+  }
+  .blur-load {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+}

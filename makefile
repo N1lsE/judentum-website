@@ -1,5 +1,5 @@
 build:
-	docker rmi my-apache2 || true # Remove the existing image if it already exists
+	rmi my-apache2 || true # Remove the existing image if it already exists
 	docker build --no-cache -t my-apache2 .
 
 create:

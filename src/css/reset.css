@@ -1,7 +1,4 @@
-:root {
-  --main-fg-color: #000;
-  --main-bg-color: #fff;
-}
+@import "colorsceme.css";
 
 * {
   margin: 0;
@@ -9,61 +6,110 @@
   font-family: "Arial", sans-serif;
   font-size: 20px;
   font-weight: 500;
+  color: var(--color_text);
 }
 
 body {
   background-color: var(--main-bg-color);
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h2 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h3 {
   font-size: 2.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h4 {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 h5 {
   font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  color: var(--color_text);
 }
 
 p {
   font-size: 1rem;
+  color: var(--color_text);
+  z-index: 300;
 }
 
 a {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: var(--color_text);
 }
 
 a:hover {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: var(--color_text);
   opacity: 0.5;
 }
-1
-a:visited 1
+
+a:visited {
   font-size: 1rem;
   text-decoration: none;
-  color: var(--main-fg-color);
+  color: var(--color_text);
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.accent_underline {
+  text-decoration: underline;
+  text-decoration-color: var(--color_accent);
+  --webkit-text-decoration-color: var(--color_accent);
+}
+
+.accent_underline:visited {
+  text-decoration: underline;
+  text-decoration-color: var(--color_accent);
+  --webkit-text-decoration-color: var(--color_accent);
+} 
+
+.blur-load {
+  display: flex;
+  width: 100%;
+  background-size: cover;
+}
+.blur-load.loaded > img {
+  opacity: 1;
+}
+.blur-load > img {
+  opacity: 0;
+  transition: opacity 200ms ease-in-out;
+}
+
+@media screen and (max-width: 650px) {
+  h1#page-header {
+    font-size: 3rem; 
+  }
 }
